@@ -1391,7 +1391,6 @@
             options = jsOptions(chart, chart.options);
           }
           var data = createDataTable(chart, options, "column");
-          setLabelSize(chart, data, options);
           drawChart(chart, (chartType === "bar" ? "horizontalBar" : "bar"), data, options);
         };
 
